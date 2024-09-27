@@ -1,0 +1,98 @@
+[
+    {
+        "id":1,
+        "name":"Story",
+        "title":"These platforms offer a diverse range of books, from timeless classics to newer, lesser-known works, all for free!",
+        "price":0,
+        "category":"Free",
+        "image":"https://img.freepik.com/free-photo/from-opened-books_23-2147779265.jpg?t=st=1727464157~exp=1727467757~hmac=c60606f1b035c7ac2052c30fcafc017845931eb3aaf13cdefb60623c39b19085&w=360"
+    },
+    {
+        "id":2,
+        "name":"Story",
+        "title":"These platforms offer a diverse range of books, from timeless classics to newer, lesser-known works, all for free!",
+        "price":0,
+        "category":"Free",
+        "image":"https://img.freepik.com/free-photo/from-opened-books_23-2147779265.jpg?t=st=1727464157~exp=1727467757~hmac=c60606f1b035c7ac2052c30fcafc017845931eb3aaf13cdefb60623c39b19085&w=360"
+    },
+    {
+        "id":3,
+        "name":"Story",
+        "title":"These platforms offer a diverse range of books, from timeless classics to newer, lesser-known works, all for free!",
+        "price":0,
+        "category":"Free",
+        "image":"https://img.freepik.com/free-photo/from-opened-books_23-2147779265.jpg?t=st=1727464157~exp=1727467757~hmac=c60606f1b035c7ac2052c30fcafc017845931eb3aaf13cdefb60623c39b19085&w=360"
+    },
+    {
+        "id":4,
+        "name":"Story",
+        "title":"These platforms offer a diverse range of books, from timeless classics to newer, lesser-known works, all for free!",
+        "price":0,
+        "category":"Free",
+        "image":"https://img.freepik.com/free-photo/from-opened-books_23-2147779265.jpg?t=st=1727464157~exp=1727467757~hmac=c60606f1b035c7ac2052c30fcafc017845931eb3aaf13cdefb60623c39b19085&w=360"
+    },
+    {
+        "id":5,
+        "name":"Story",
+        "title":"These platforms offer a diverse range of books, from timeless classics to newer, lesser-known works, all for free!",
+        "price":0,
+        "category":"Free",
+        "image":"https://img.freepik.com/free-photo/from-opened-books_23-2147779265.jpg?t=st=1727464157~exp=1727467757~hmac=c60606f1b035c7ac2052c30fcafc017845931eb3aaf13cdefb60623c39b19085&w=360"
+    },
+    {
+        "id":6,
+        "name":"Story",
+        "title":"These platforms offer a diverse range of books, from timeless classics to newer, lesser-known works, all for free!",
+        "price":0,
+        "category":"Free",
+        "image":"https://img.freepik.com/free-photo/from-opened-books_23-2147779265.jpg?t=st=1727464157~exp=1727467757~hmac=c60606f1b035c7ac2052c30fcafc017845931eb3aaf13cdefb60623c39b19085&w=360"
+    },
+    {
+        "id":7,
+        "name":"Story",
+        "title":"These platforms offer a diverse range of books, from timeless classics to newer, lesser-known works, all for free!",
+        "price":0,
+        "category":"Free",
+        "image":"https://img.freepik.com/free-photo/from-opened-books_23-2147779265.jpg?t=st=1727464157~exp=1727467757~hmac=c60606f1b035c7ac2052c30fcafc017845931eb3aaf13cdefb60623c39b19085&w=360"
+    },
+    {
+        "id":8,
+        "name":"Music Story",
+        "title":"These platforms offer a diverse range of books, from timeless classics to newer, lesser-known works, all for free!",
+        "price":100,
+        "category":"Song",
+        "image":"https://img.freepik.com/free-photo/from-opened-books_23-2147779265.jpg?t=st=1727464157~exp=1727467757~hmac=c60606f1b035c7ac2052c30fcafc017845931eb3aaf13cdefb60623c39b19085&w=360"
+    },
+    {
+        "id":9,
+        "name":"Story",
+        "title":"These platforms offer a diverse range of books, from timeless classics to newer, lesser-known works, all for free!",
+        "price":0,
+        "category":"Free",
+        "image":"https://img.freepik.com/free-photo/from-opened-books_23-2147779265.jpg?t=st=1727464157~exp=1727467757~hmac=c60606f1b035c7ac2052c30fcafc017845931eb3aaf13cdefb60623c39b19085&w=360"
+    },
+    {
+        "id":10,
+        "name":"Story",
+        "title":"These platforms offer a diverse range of books, from timeless classics to newer, lesser-known works, all for free!",
+        "price":0,
+        "category":"Free",
+        "image":"https://img.freepik.com/free-photo/from-opened-books_23-2147779265.jpg?t=st=1727464157~exp=1727467757~hmac=c60606f1b035c7ac2052c30fcafc017845931eb3aaf13cdefb60623c39b19085&w=360"
+    },
+    {
+        "id":11,
+        "name":"Love Story",
+        "title":"These platforms offer a diverse range of books, from timeless classics to newer, lesser-known works, all for free!",
+        "price":255,
+        "category":"Love",
+        "image":"https://img.freepik.com/free-photo/from-opened-books_23-2147779265.jpg?t=st=1727464157~exp=1727467757~hmac=c60606f1b035c7ac2052c30fcafc017845931eb3aaf13cdefb60623c39b19085&w=360"
+    },
+    {
+        "id":12,
+        "name":"Story",
+        "title":"These platforms offer a diverse range of books, from timeless classics to newer, lesser-known works, all for free!",
+        "price":0,
+        "category":"Free",
+        "image":"https://img.freepik.com/free-photo/from-opened-books_23-2147779265.jpg?t=st=1727464157~exp=1727467757~hmac=c60606f1b035c7ac2052c30fcafc017845931eb3aaf13cdefb60623c39b19085&w=360"
+    }
+]
