@@ -5,7 +5,7 @@ function Cards({ item }) {
   return (
     <>
       <div className="mt-4 my-3 p-3 hover:scale-105 hover:m-5 duration-200">
-        <div className="card bg-base-100 w-92  shadow-xl">
+        <div className="card bg-base-100 w-92  shadow-xl  dark:bg-slate-900 dark:text-white dark:border">
           <figure>
             <img
               // eslint-disable-next-line react/prop-types

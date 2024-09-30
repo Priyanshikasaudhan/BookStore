@@ -4,7 +4,7 @@ import  banner from "../../public/bookstore.jpg"
 function Banner() {
   return (
     <>
-      <div className="max-w-screen-2xl container mx-auto md:px-20 px-4 flex flex-col md:flex-row my-20">
+      <div className="max-w-screen-2xl container mx-auto md:px-20 px-4 flex flex-col md:flex-row  ">
         <div className=" order-2 md:order-1 w-full md:w-1/2 md:mt-32 mt-12 ">
           <div className="space-y-12">
             <h1 className="font-bold text-4xl">
@@ -36,7 +36,7 @@ function Banner() {
           {/* <button className="btn mt-10 btn-secondary">Secondary</button> */}
           
         </div>
-        <div className="w-full md:w-1/2 order-1">
+        <div className="w-full md:w-1/2 order-1 mt-20">
          <img src={banner} className='w-90 h-92 rounded-lg p-2' alt=""/>
         </div>
       </div>
