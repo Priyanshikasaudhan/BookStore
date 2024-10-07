@@ -1,11 +1,13 @@
-import {} from 'react';
+import {} from 'react'
 
 function Contact() {
   return (
     <>
-      <h1>Hellooooo</h1>
+     <h1>
+        Hello EveryOne!! 
+     </h1> 
     </>
   )
 }
 
-export default Contact;
+export default Contact
