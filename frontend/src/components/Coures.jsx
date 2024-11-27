@@ -6,6 +6,7 @@ import axios from "axios";
 // import { get } from "mongoose";
 
 function  x() {
+  // eslint-disable-next-line react-hooks/rules-of-hooks
   const [book,setBook] = useState([]);
   useEffect(()=>{
     const getBook=async()=>{
@@ -23,12 +24,12 @@ function  x() {
   return (
     <>
       <div className="max-w-screen-2xl container mx-auto md:px-20 px-4 ">
-        <div className="mt-28 items-center justify-center text-center">
-          <h1 className="text-2xl font-semibold md:text-4xl">
+        <div className=" items-center justify-center text-center">
+          <h1 className="text-2xl font-semibold md:text-4xl py-28">
             We're delighted to have you{" "}
             <span className="text-pink-500">here! :) </span>
           </h1>
-          <p className="mt-12 ">
+          <p className="">
             This app is designed to help students with their English paragraphs
             for exams like SSC and HSC. It includes a collection of paragraphs
             in simple English that can help students improve their English

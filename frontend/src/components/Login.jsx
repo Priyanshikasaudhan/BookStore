@@ -2,6 +2,8 @@ import {} from "react";
 import { useForm } from "react-hook-form";
 import { Link } from "react-router-dom";
 // import Signup from "./Signup";
+import axios from "axios";
+import toast from "react-hot-toast";
 
 function Login() {
   const {
@@ -10,7 +12,36 @@ function Login() {
     formState: { errors },
   } = useForm();
 
-  const onSubmit = (data) => console.log(data);
+  const onSubmit =async (data) =>  {
+    const userInfo = {
+      email: data.email,
+      password: data.password,
+    }
+    await axios.post("http://localhost:4001/user/login",userInfo)
+    .then((res)=>{
+      console.log(res.data)
+      if(res.data){
+        toast.success('Loggedin Successfully');
+           // automatic close login page 
+           document.getElementById("my_modal_3").close()
+        setTimeout(()=>{
+        
+        window.location.reload();
+        localStorage.setItem("Users",JSON.stringify(res.data.user));
+        }, 1000);
+         
+      }
+      
+    })
+    .catch((err)=>{
+      // alert("Error: "+err)
+      if(err.response){
+        console.log(err);
+        toast.error("Error: " + err.response.data.message);
+        setTimeout(()=> {},2000);
+      }
+    });
+  };
 
   return (
     <div>
@@ -35,7 +66,7 @@ function Login() {
               <input
                 type="email"
                 placeholder="Enter your email"
-                className="w-80 px-3 py-1 border rounded-md outline-none"
+                className="w-80 px-3 py-1 border rounded-md outline-none text-stone-950"
                 {...register("email", { required: true })}
               />
               <br />
